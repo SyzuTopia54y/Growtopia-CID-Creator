@@ -1,6 +1,7 @@
 #include "proton/variant.hpp"
 #include "enet/include/enet.h"
 #include <string>
+using namespace std;
 //#include <conio.h>
 //#include <curses.h>
 #include <stdio.h>
@@ -22,7 +23,11 @@
 
 #pragma once
 //Customing GrowID
-string Growid_acc = "capcitest1";
+string Gtname
+cout << "Type your Growid: ";
+  getline (cin, Gtname);
+
+string Growid_acc = Gtname;
 
 //Customing Password
 string Password_acc = "loler1234@";
