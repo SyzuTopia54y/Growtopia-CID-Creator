@@ -23,17 +23,13 @@ using namespace std;
 
 #pragma once
 //Customing GrowID
-string Gtname
-cout << "Type your Growid: ";
-  getline (cin, Gtname);
-
-string Growid_acc = Gtname;
+string Growid_acc = "SpamSy";
 
 //Customing Password
 string Password_acc = "loler1234@";
 
 //Customing Gmail ( At least put a random gmail. Dont add @gmail.com )
-string Gmail_acc = "testgmail";
+string Gmail_acc = "dausdgsauskdgasuhdayujk@darnoasnj.com";
 
 //Customing Start From (Account)
 int START_ACC = 1;
